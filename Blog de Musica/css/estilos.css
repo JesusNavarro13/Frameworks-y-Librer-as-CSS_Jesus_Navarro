@@ -1,0 +1,148 @@
+
+@media (min-width:900px) {
+  #logo{
+    width: 35%;
+  }
+
+  #cabecera{
+    background: white;
+    border-radius: 10px;
+  }
+  body{
+    background: black;
+    font-family: 'Oxygen', sans-serif;
+  }
+
+  #redes{
+    width: 120%;
+    margin-top: 50px;
+    margin-left: 80px;
+  }
+  #RS{
+    display: inline-block;
+  }
+  .nav-item{
+    padding: 0px 40px 0px 40px;
+    background: #37cdcb;
+    margin-left: 15px;
+    border-radius: 15px;
+  }
+  .nav-link{
+    color:black;
+  }
+  #barra{
+    background:#5d6d7e;
+    border-radius: 5px;
+  }
+  #br{
+    background:#5d6d7e;
+    border-radius: 5px;
+  }
+  #Contenido{
+    background: #CECFC4;
+    border-radius: 5px;
+  }
+  .Contenido2{
+    background: #CECFC4;
+    border-radius: 5px;
+  }
+  #Artista{
+    width: 70%;
+    color: black;
+  }
+  .perfil{
+    border-radius: 25px;
+    width: 90%;
+    height: 300px;
+    margin-top: 5px;
+  }
+  #usr{
+    width: 60%;
+  }
+  .inner-addon {
+      position: relative;
+  }
+  .inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+  }
+  .left-addon .glyphicon  { left:  0px;}
+  .right-addon .glyphicon { right: 0px;}
+
+  .left-addon input  { padding-left:  30px; }
+  .right-addon input { padding-right: 30px; }
+
+  #comentario{
+    width: 71%;
+  }
+}
+@media (max-width:899px) {
+  #logo{
+    width: 15%;
+  }
+
+  #cabecera{
+    background: white;
+    border-radius: 10px;
+  }
+  body{
+    background: black;
+    font-family: 'Oxygen', sans-serif;
+  }
+  #redes{
+    width: 100%;
+    display: inline-block;
+
+  }
+  #RS{
+    display: inline-block;
+  }
+  .nav-item{
+    padding: 0px 39px 0px 39px;
+    background: #37cdcb;
+    margin-left: 15px;
+    border-radius: 15px;
+  }
+  .nav-link{
+    color:black;
+  }
+  #barra{
+    background:#5d6d7e;
+    width: 100%;
+    border-radius: 5px;
+  }
+  #Contenido{
+    background: #CECFC4;
+    border-radius: 5px;
+  }
+  .Contenido2{
+    background: #CECFC4;
+    border-radius: 5px;
+  }
+  #Artista{
+    color: black;
+  }
+  .perfil{
+    border-radius: 25px;
+    width: 50%;
+    height: 300px;
+    margin-top: 5px;
+  }
+  #usr{
+    width: 60%;
+  }
+  .inner-addon {
+      position: relative;
+  }
+  .inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+  }
+  .left-addon .glyphicon  { left:  0px;}
+  .right-addon .glyphicon { right: 0px;}
+
+  .left-addon input  { padding-left:  30px; }
+  .right-addon input { padding-right: 30px; }
+}

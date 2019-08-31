@@ -1,0 +1,107 @@
+
+
+@media (min-width:900px) {
+  body{
+    font-family: 'Courgette', cursive;
+  }
+  #titulo{
+    background: #C0C1A5;
+    opacity: 0.8;
+  }
+  h2{
+    color: black;
+    opacity: 1.0;
+    font-weight: bold;
+    text-align: center;
+  }
+  #Contenido{
+    background: #C0C1A5;
+    opacity: 0.8;
+  }
+  .input-group-label {
+  background-color: #1779ba;
+  border-color: #1779ba;
+}
+
+.input-group-field {
+  border-color: #1779ba;
+}
+
+.fa {
+  color: white;
+  width: 1rem;
+}
+.list-group {
+  margin-bottom: 1rem;
+  border: 1px solid #e6e6e6;
+  border-radius: 0;
+  background: #fefefe;
+  box-shadow: none;
+  overflow: hidden;
+  color: #0a0a0a;
+}
+
+.list-group > :last-child {
+  margin-bottom: 0;
+}
+
+.list-group-item {
+  padding: 0.5rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.list-group-item > :last-child {
+
+  border-bottom: none;
+}
+
+.list-group-item.active {
+  color: #fefefe;
+  background-color: #1779ba;
+  border-color: 1px solid #1779ba;
+}
+
+.list-group-item:hover, .list-group-item:focus {
+  background-color: #e6e6e6;
+}
+
+.list-group-item:hover.active, .list-group-item:focus.active {
+  background-color: #1779ba;
+}
+  .comida{
+    width: 130%;
+  }
+  .imagenp{
+    width: 98%
+  }
+}
+
+@media (max-width:899px) {
+  body{
+    font-family: 'Courgette', cursive;
+  }
+  #titulo{
+    background: #C0C1A5;
+    opacity: 0.8;
+    text-align: right;
+  }
+  h3{
+    color: black;
+    opacity: 1.0;
+    font-weight: bold;
+    text-align: center;
+  }
+  #Contenido{
+    background: #C0C1A5;
+    opacity: 0.8;
+  }
+  .comida{
+    width: 110%;
+  }
+  .imagenp{
+    width: 98%
+  }
+}
+#personaje{
+  width: 10%;
+}
